@@ -59,20 +59,20 @@ halt               <-> 00  00 00 00  00 00 00 00
 
 ## Technical Notes
 
-> 1 byte = 1 octet = 2 nibble = 8 bits
+**1 byte = 1 octet = 2 nibble = 8 bits**
 
-> A 16-bit unsigned integer can hold 2^16=65536 different values.
+**A 16-bit unsigned integer can hold 2^16=65536 different values.**
 
 This imply that a processor with 16-bit memory addresses can directly access 64KiB (65536/1024) of byte-addressable memory.
 
-> 0x00 is 1 byte (8 bits)in hexadecimal form (or base16) and it can hold 2^8=256 possibilities.
+**0x00 is 1 byte (8 bits)in hexadecimal form (or base16) and it can hold 2^8=256 possibilities**
 
 Examples:
 
 * 004 -> 0x 04 -> 0b 0000 0100
 * 256 -> 0x FF -> 0b 1111 1111 
 
-> X86_64 use little-endian
+**X86_64 use little-endian**
 
 That's saying `12 AB CD EF` would become `ef cd ab 12` when written to a binary file.
 
