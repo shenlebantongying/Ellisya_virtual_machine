@@ -1,5 +1,4 @@
-Ellisya Virtual Machine
------------------------
+# Ellisya Virtual Machine
 
 ## Specification V1
 
@@ -58,7 +57,7 @@ add add $3 $1 $2   <-> 03  03 01 02  00 00 00 00
 halt               <-> 00  00 00 00  00 00 00 00
 ```
 
-# Technical Notes
+## Technical Notes
 
 > 1 byte = 1 octet = 2 nibble = 8 bits
 
@@ -86,10 +85,10 @@ That's saying `12 AB CD EF` would become `ef cd ab 12` when written to a binary 
 └─────────── 12
 ```
 
-# Resources
-## more ISA(Instruction Set Architecture)
+## Resources
+### more ISA(Instruction Set Architecture)
 LC-3  <https://justinmeiners.github.io/lc3-vm/supplies/lc3-isa.pdf>
 
 MIPS <http://www.math-cs.gordon.edu/courses/cps311/handouts-2019/MIPS%20ISA.pdf>
-## Textbooks
+### Textbooks
 The Elements of Computing Systems 2nd from MIT.
