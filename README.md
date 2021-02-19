@@ -2,7 +2,7 @@
 
 ## Specification V1
 
-Ellisya Virtual Machine is a switch & register based VM. It has 3 registers $1 $2 and $3. Each register can hold 2 bytes of information. 
+Ellisya Virtual Machine is a switch & register based VM implemented in C/C++. It has 3 registers $1 $2 and $3. Each register can hold 2 bytes of information. 
 
 A 4 byte cache can be used to hold bigger immediate value.
 
