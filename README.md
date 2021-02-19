@@ -49,7 +49,7 @@ Hex | Word  | Usage       | Description
 Each line contains only 1 instruction which can be directly translated to 8 bytes.
 
 ```text
-           hexdump <-> assembly
+          assembly <-> hexdump
 ------------------------------------------------
 load $1 0x00000012 <-> 01  01 00 00  00 00 00 12
 load $2 0x5FFFFFFF <-> 01  02 00 00  5F FF FF FF
