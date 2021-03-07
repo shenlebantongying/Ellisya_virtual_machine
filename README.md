@@ -92,3 +92,7 @@ LC-3  <https://justinmeiners.github.io/lc3-vm/supplies/lc3-isa.pdf>
 MIPS <http://www.math-cs.gordon.edu/courses/cps311/handouts-2019/MIPS%20ISA.pdf>
 ### Textbooks
 The Elements of Computing Systems 2nd from MIT.
+
+## TODO
+
+Read some python VM <https://tenthousandmeters.com/blog/python-behind-the-scenes-1-how-the-cpython-vm-works/>
