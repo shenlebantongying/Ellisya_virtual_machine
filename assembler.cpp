@@ -8,7 +8,7 @@
 
 
 typedef uint8_t  oneByte;   //operator length or register length
-typedef uint32_t fourByte;  //data cache length
+typedef uint32_t fourByte;  //data Data length
 typedef uint32_t i32bits;
 typedef uint64_t eightByte; //length of a complete instruction
 
@@ -36,7 +36,7 @@ int main(){
     oneByte  rg2  = 0x02;
     oneByte  rg3  = 0x03;
 
-    // load cache to rg1
+    // load Data to rg1
     W1(load)
     W1(rg1)
     W1(rg0)

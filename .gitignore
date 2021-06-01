@@ -1,4 +1,5 @@
-/cmake-build-debug/
+cmake-build-debug/
 assembler
 ellisya_vm
 vm.image
+.idea/
